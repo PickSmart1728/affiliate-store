@@ -418,14 +418,15 @@ const products = [
 
 
     featured: true,
-    image: "https://m.media-amazon.com/images/I/81wPIOK2PDL._SL1500_.jpg",
+    image: "https://m.media-amazon.com/images/I/814GTqb4fEL._SL1500_.jpg",
     gallery: [
-      { type: "image", src: "https://m.media-amazon.com/images/I/81wPIOK2PDL._SL1500_.jpg", alt: "Tech Vault Organizer — main" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/71Vq1PQMvUL._SL1500_.jpg", alt: "Tech Vault Organizer — open" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/71LkDnhs+6L._SL1500_.jpg", alt: "Tech Vault Organizer — detail" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/814GTqb4fEL._SL1500_.jpg", alt: "Tech Vault Organizer — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71Mcs25-EQL._SL1254_.jpg", alt: "Tech Vault Organizer — open" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71wJsNTSYpL._SL1254_.jpg", alt: "Tech Vault Organizer — detail" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71aKvltYMjL._SL1297_.jpg", alt: "Tech Vault Organizer — extra" },
     ],
     description: "A rugged and spacious organizer for all your tech accessories. Protects cables, chargers, and gadgets while traveling.",
-    affiliate: "https://link.amazon/B0h6x6JvO",
+    affiliate: "https://link.amazon/B0gId3lJJ",
     specs: [
       { label: "Material", value: "Water-resistant exterior" },
       { label: "Interior", value: "Customizable dividers" },
