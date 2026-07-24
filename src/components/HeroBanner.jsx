@@ -9,7 +9,7 @@ function getFeaturedPerCategory() {
     if (!map.has(p.category)) map.set(p.category, p);
     if (p.featured) map.set(p.category, p);
   });
-  return Array.from(map.values());
+  return Array.from(map.values()).sort((a, b) => a.category.localeCompare(b.category));
 }
 
 const ROTATE_MS = 4500;
