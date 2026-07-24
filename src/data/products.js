@@ -437,9 +437,6 @@ const products = [
     id: 20,
     name: "7-in-1 Tech Cleaner",
     category: "Tech Accessories",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/61e7QPVSXBL._SL1500_.jpg",
     gallery: [
@@ -453,6 +450,272 @@ const products = [
       { label: "Includes", value: "Brush, screen wipe, key puller" },
       { label: "Design", value: "Compact and portable" },
       { label: "Use", value: "Laptops, phones, earphones" },
+    ]
+  },
+  // ── Kitchen Essentials ──────────────────────────────────────────────────────
+  {
+    id: 21,
+    name: "Portable Smoothie Blender",
+    category: "Kitchen Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/71bAiszv2JL._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/71bAiszv2JL._SL1500_.jpg", alt: "Portable Smoothie Blender — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71nLBO81E5L._SL1500_.jpg", alt: "Portable Smoothie Blender — in use" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71NEiVKXJfL._SL1500_.jpg", alt: "Portable Smoothie Blender — detail" },
+    ],
+    description: "Blend fresh smoothies, shakes, and juices on the go with this compact portable blender. USB rechargeable and travel-friendly, it's perfect for the gym, office, or outdoor adventures.",
+    affiliate: "https://link.amazon/B0eGP7e4M",
+    specs: [
+      { label: "Capacity", value: "Personal size bottle" },
+      { label: "Power", value: "USB rechargeable" },
+      { label: "Blades", value: "Stainless steel" },
+      { label: "Ideal For", value: "Gym, travel & office" },
+    ]
+  },
+  {
+    id: 22,
+    name: "Manual Vegetable Chopper",
+    category: "Kitchen Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/81RmRbFp85L._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/81RmRbFp85L._SL1500_.jpg", alt: "Manual Vegetable Chopper — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61CdFaHv2CL._SL1500_.jpg", alt: "Manual Vegetable Chopper — in use" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71f8HIsXfmL._SL1500_.jpg", alt: "Manual Vegetable Chopper — detail" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/712JxCHh2LL._SL1500_.jpg", alt: "Manual Vegetable Chopper — components" },
+    ],
+    description: "Chop onions, garlic, herbs, and vegetables in seconds with this easy-to-use manual chopper. No electricity needed — just pull the cord and get perfectly chopped veggies every time.",
+    affiliate: "https://link.amazon/B0eUDONxF",
+    specs: [
+      { label: "Operation", value: "Manual pull-cord" },
+      { label: "Material", value: "BPA-free food-grade plastic" },
+      { label: "Blades", value: "Stainless steel" },
+      { label: "Dishwasher Safe", value: "Yes" },
+    ]
+  },
+  {
+    id: 23,
+    name: "Masala Chai Maker",
+    category: "Kitchen Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/71Bck1aaujL._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/71Bck1aaujL._SL1500_.jpg", alt: "Masala Chai Maker — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/712cXRPMouL._SL1500_.jpg", alt: "Masala Chai Maker — brewing" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/714jCfnVRRL._SL1500_.jpg", alt: "Masala Chai Maker — detail" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71OmUojwYuL._SL1500_.jpg", alt: "Masala Chai Maker — lifestyle" },
+    ],
+    description: "Brew the perfect cup of masala chai at home with this dedicated electric chai maker. Boil, brew, and froth milk effortlessly for an authentic tea-stall experience in your own kitchen.",
+    affiliate: "https://link.amazon/B07rJlojn",
+    specs: [
+      { label: "Capacity", value: "Multiple cups per brew" },
+      { label: "Function", value: "Boil, brew & froth" },
+      { label: "Power", value: "Electric" },
+      { label: "Material", value: "Food-grade stainless steel" },
+    ]
+  },
+  {
+    id: 24,
+    name: "3D Animal Water Bottle",
+    category: "Kitchen Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61nkCtMxV7L._SL1332_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61nkCtMxV7L._SL1332_.jpg", alt: "3D Animal Water Bottle — main" },
+    ],
+    description: "Stay hydrated in style with this adorable 3D animal-shaped water bottle. Great for kids and adults alike, it makes drinking water fun and keeps beverages fresh for hours.",
+    affiliate: "https://link.amazon/B065XU8zy",
+    specs: [
+      { label: "Design", value: "3D animal shape" },
+      { label: "Material", value: "BPA-free plastic" },
+      { label: "Ideal For", value: "Kids & adults" },
+      { label: "Feature", value: "Leak-proof lid" },
+    ]
+  },
+  // ── Home Essentials ─────────────────────────────────────────────────────────
+  {
+    id: 25,
+    name: "Portable Air Cooler",
+    category: "Home Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61z6QTwsnCL._SL1080_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61z6QTwsnCL._SL1080_.jpg", alt: "Portable Air Cooler — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71uoVwNA7uL._SL1500_.jpg", alt: "Portable Air Cooler — side view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71NA4EJxotL._SL1500_.jpg", alt: "Portable Air Cooler — features" },
+    ],
+    description: "Beat the heat with this compact portable air cooler. Combines cooling, humidifying, and purifying functions in one device. USB-powered and whisper-quiet — perfect for your desk or bedroom.",
+    affiliate: "https://link.amazon/B06tzBJhG",
+    specs: [
+      { label: "Function", value: "Cool, humidify & purify" },
+      { label: "Power", value: "USB powered" },
+      { label: "Noise Level", value: "Ultra-quiet operation" },
+      { label: "Ideal For", value: "Desk, bedroom, travel" },
+    ]
+  },
+  {
+    id: 26,
+    name: "Penguin Wall Organizer",
+    category: "Home Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61p8R7iB0ML._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61p8R7iB0ML._SL1500_.jpg", alt: "Penguin Wall Organizer — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61RFfK-u-UL._SL1500_.jpg", alt: "Penguin Wall Organizer — mounted" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61h64UjGzIL._SL1500_.jpg", alt: "Penguin Wall Organizer — detail" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61k2hAeAyfL._SL1500_.jpg", alt: "Penguin Wall Organizer — lifestyle" },
+    ],
+    description: "Add a quirky touch to your space with this adorable penguin-shaped wall organizer. Perfect for storing keys, mail, sunglasses, and small essentials by your front door or in any room.",
+    affiliate: "https://link.amazon/B04dUBj3h",
+    specs: [
+      { label: "Design", value: "Cute penguin shape" },
+      { label: "Mounting", value: "Wall-mounted" },
+      { label: "Compartments", value: "Multiple pockets/hooks" },
+      { label: "Material", value: "Durable resin/plastic" },
+    ]
+  },
+  {
+    id: 27,
+    name: "Smart Curtain Robot",
+    category: "Home Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/71VDLHHfMkL._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/71VDLHHfMkL._SL1500_.jpg", alt: "Smart Curtain Robot — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71fSnKQehaL._SL1500_.jpg", alt: "Smart Curtain Robot — on rail" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/715R5J4nh+L._SL1500_.jpg", alt: "Smart Curtain Robot — detail" },
+    ],
+    description: "Automate your curtains with this smart curtain robot. Clips onto any curtain rod and can be controlled via app or voice commands. Schedule your curtains to open and close automatically.",
+    affiliate: "https://link.amazon/B06ZFWVc3",
+    specs: [
+      { label: "Control", value: "App & voice control" },
+      { label: "Compatibility", value: "Most curtain rods" },
+      { label: "Power", value: "Rechargeable battery" },
+      { label: "Feature", value: "Programmable scheduling" },
+    ]
+  },
+  {
+    id: 28,
+    name: "Foldable Laundry Basket",
+    category: "Home Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/71-sLX5QrEL._SL1100_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/71-sLX5QrEL._SL1100_.jpg", alt: "Foldable Laundry Basket — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71eWDqYKisL._SL1100_.jpg", alt: "Foldable Laundry Basket — folded" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/713DsEddGHL._SL1500_.jpg", alt: "Foldable Laundry Basket — in use" },
+    ],
+    description: "A large-capacity foldable laundry basket that collapses flat for easy storage. Lightweight yet sturdy with handles for easy carrying — an essential for any bedroom, dorm, or laundry room.",
+    affiliate: "https://link.amazon/B08mdjlxU",
+    specs: [
+      { label: "Capacity", value: "Large size" },
+      { label: "Feature", value: "Foldable & collapsible" },
+      { label: "Handles", value: "Reinforced carry handles" },
+      { label: "Material", value: "Durable fabric" },
+    ]
+  },
+  {
+    id: 29,
+    name: "Adjustable Shoe Organizer",
+    category: "Home Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61r5mz6oZWS._SL1100_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61r5mz6oZWS._SL1100_.jpg", alt: "Adjustable Shoe Organizer — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/517rXaiQJdL.jpg", alt: "Adjustable Shoe Organizer — side view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71hqkP8nltL._SL1500_.jpg", alt: "Adjustable Shoe Organizer — in use" },
+    ],
+    description: "Keep your footwear neatly arranged with this adjustable shoe organizer rack. Expands to hold multiple pairs and works for all shoe sizes — ideal for closets, entryways, and small spaces.",
+    affiliate: "https://link.amazon/B04zRqQ3j",
+    specs: [
+      { label: "Adjustable", value: "Expandable width" },
+      { label: "Capacity", value: "Multiple pairs" },
+      { label: "Material", value: "Sturdy steel frame" },
+      { label: "Ideal For", value: "Closets & entryways" },
+    ]
+  },
+  // ── Kids & Toys ─────────────────────────────────────────────────────────────
+  {
+    id: 30,
+    name: "Kids ATM Piggy Bank",
+    category: "Kids & Toys",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/81y-giXbx7L._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/81y-giXbx7L._SL1500_.jpg", alt: "Kids ATM Piggy Bank — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81jwNTJ05GL._SL1500_.jpg", alt: "Kids ATM Piggy Bank — keypad" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81OvIRlAzEL._SL1500_.jpg", alt: "Kids ATM Piggy Bank — features" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81XSk7fjfpL._SL1500_.jpg", alt: "Kids ATM Piggy Bank — lifestyle" },
+    ],
+    description: "Teach kids about saving money in a fun way with this interactive ATM-style piggy bank. Features a PIN code, digital balance display, and card slot — just like a real bank machine!",
+    affiliate: "https://link.amazon/B04YFHq81",
+    specs: [
+      { label: "Feature", value: "PIN code security" },
+      { label: "Display", value: "Digital balance screen" },
+      { label: "Power", value: "Battery operated" },
+      { label: "Age Group", value: "3+ years" },
+    ]
+  },
+  // ── Health, Household & Personal Care ───────────────────────────────────────
+  {
+    id: 31,
+    name: "Toilet Gel Stamp",
+    category: "Health, Household & Personal Care",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/51FvM-YlylL.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/51FvM-YlylL.jpg", alt: "Toilet Gel Stamp — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/3134ewGa3hL.jpg", alt: "Toilet Gel Stamp — application" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/51k7vnMNsTL.jpg", alt: "Toilet Gel Stamp — in toilet" },
+    ],
+    description: "Keep your toilet fresh and clean with this convenient gel stamp cleaner. Simply stamp the gel inside the bowl for long-lasting fragrance and effective cleaning with every flush.",
+    affiliate: "https://link.amazon/B00x3FEgD",
+    specs: [
+      { label: "Application", value: "Stamp-on gel" },
+      { label: "Duration", value: "Lasts up to 4 weeks" },
+      { label: "Function", value: "Clean & deodorize" },
+      { label: "Use", value: "Toilet bowl" },
+    ]
+  },
+  {
+    id: 32,
+    name: "Disposable Shoe Covers",
+    category: "Health, Household & Personal Care",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/51gsfi2gjgL.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/51gsfi2gjgL.jpg", alt: "Disposable Shoe Covers — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61aSl0vFQXL.jpg", alt: "Disposable Shoe Covers — in use" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71AFc-XSrWL._SL1500_.jpg", alt: "Disposable Shoe Covers — pack" },
+    ],
+    description: "Protect floors and maintain hygiene with these waterproof disposable shoe covers. Non-slip sole ensures safety on smooth surfaces — perfect for home, hospitals, labs, and construction sites.",
+    affiliate: "https://link.amazon/B0cJF2EIW",
+    specs: [
+      { label: "Material", value: "Non-woven / PE waterproof" },
+      { label: "Sole", value: "Non-slip" },
+      { label: "Size", value: "One size fits most" },
+      { label: "Use", value: "Home, medical & industrial" },
+    ]
+  },
+  {
+    id: 33,
+    name: "Cartoon Kids Toothbrush",
+    category: "Health, Household & Personal Care",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61rdRSWVLtL._SL1254_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61rdRSWVLtL._SL1254_.jpg", alt: "Cartoon Kids Toothbrush — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71h4At7wmXL._SL1254_.jpg", alt: "Cartoon Kids Toothbrush — colors" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71hNdvp0miL._SL1254_.jpg", alt: "Cartoon Kids Toothbrush — detail" },
+    ],
+    description: "Make brushing fun with these adorable cartoon character toothbrushes for kids. Soft bristles protect delicate gums while the fun design encourages good oral hygiene habits from an early age.",
+    affiliate: "https://link.amazon/B02PXhdFU",
+    specs: [
+      { label: "Bristles", value: "Extra soft" },
+      { label: "Design", value: "Fun cartoon characters" },
+      { label: "Age Group", value: "Children 3–12 years" },
+      { label: "Pack", value: "Set of multiple brushes" },
     ]
   }
 ];
