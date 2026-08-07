@@ -322,28 +322,7 @@ const products = [
       { label: "Feature", value: "Fast heating system" },
     ]
   },
-  {
-    id: 15,
-    name: "Wall Spice Rack",
-    category: "Kitchen Essentials",
 
-
-
-    featured: false,
-    image: "https://m.media-amazon.com/images/I/61X82eDEWpL._SL1024_.jpg",
-    gallery: [
-      { type: "image", src: "https://m.media-amazon.com/images/I/61X82eDEWpL._SL1024_.jpg", alt: "Wall Spice Rack — main" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/715ZCGTN3PL._SL1024_.jpg", alt: "Wall Spice Rack — installed" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/71+3XIu359L._SL1500_.jpg", alt: "Wall Spice Rack — dimensions" },
-    ],
-    description: "Maximize your kitchen space with this sleek, wall-mounted spice rack organizer. Keeps all your essential seasonings visible and easy to access.",
-    affiliate: "https://link.amazon/B0c8NDE5N",
-    specs: [
-      { label: "Mounting", value: "Wall mounted (screws/adhesive)" },
-      { label: "Material", value: "Rustproof metal" },
-      { label: "Capacity", value: "Holds 24+ spice jars" },
-    ]
-  },
   {
     id: 16,
     name: "Selfie Stick Phone Case",
@@ -412,7 +391,7 @@ const products = [
   },
   {
     id: 19,
-    name: "Tech Vault Organizer",
+    name: "Tech Pouch Organizer",
     category: "Tech Accessories",
 
 
@@ -420,10 +399,10 @@ const products = [
     featured: true,
     image: "https://m.media-amazon.com/images/I/814GTqb4fEL._SL1500_.jpg",
     gallery: [
-      { type: "image", src: "https://m.media-amazon.com/images/I/814GTqb4fEL._SL1500_.jpg", alt: "Tech Vault Organizer — main" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/71Mcs25-EQL._SL1254_.jpg", alt: "Tech Vault Organizer — open" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/71wJsNTSYpL._SL1254_.jpg", alt: "Tech Vault Organizer — detail" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/71aKvltYMjL._SL1297_.jpg", alt: "Tech Vault Organizer — extra" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/814GTqb4fEL._SL1500_.jpg", alt: "Tech Pouch Organizer — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71aKvltYMjL._SL1297_.jpg", alt: "Tech Pouch Organizer — open" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71Mcs25-EQL._SL1254_.jpg", alt: "Tech Pouch Organizer — detail" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71wJsNTSYpL._SL1254_.jpg", alt: "Tech Pouch Organizer — extra" },
     ],
     description: "A rugged and spacious organizer for all your tech accessories. Protects cables, chargers, and gadgets while traveling.",
     affiliate: "https://link.amazon/B0gId3lJJ",
