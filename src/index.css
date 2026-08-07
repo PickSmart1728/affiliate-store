@@ -986,6 +986,8 @@ button {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .details-image-wrapper {
@@ -1621,7 +1623,8 @@ button {
   flex-direction: column;
   gap: 14px;
   min-width: 0;
-  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 /* ── Main viewer pane ─────────────────────────── */
@@ -1734,12 +1737,11 @@ button {
 .gallery-thumbs {
   display: flex;
   flex-wrap: nowrap;
-  gap: 10px;
-  width: 100%;
-  box-sizing: border-box;
+  gap: 8px;
+  max-width: 100%;
   overflow-x: auto;
   overflow-y: visible;
-  padding-bottom: 4px;
+  padding: 2px 0 6px;
   scrollbar-width: thin;
   scrollbar-color: var(--border-color) transparent;
   -webkit-overflow-scrolling: touch;
