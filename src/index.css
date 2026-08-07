@@ -1621,7 +1621,7 @@ button {
   flex-direction: column;
   gap: 14px;
   min-width: 0;
-  overflow: hidden;
+  width: 100%;
 }
 
 /* ── Main viewer pane ─────────────────────────── */
@@ -1736,7 +1736,9 @@ button {
   flex-wrap: nowrap;
   gap: 10px;
   width: 100%;
+  box-sizing: border-box;
   overflow-x: auto;
+  overflow-y: visible;
   padding-bottom: 4px;
   scrollbar-width: thin;
   scrollbar-color: var(--border-color) transparent;
