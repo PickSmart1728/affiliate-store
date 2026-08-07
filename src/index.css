@@ -1620,6 +1620,8 @@ button {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 /* ── Main viewer pane ─────────────────────────── */
@@ -1731,11 +1733,14 @@ button {
 /* ── Thumbnail strip ──────────────────────────── */
 .gallery-thumbs {
   display: flex;
+  flex-wrap: nowrap;
   gap: 10px;
+  width: 100%;
   overflow-x: auto;
   padding-bottom: 4px;
   scrollbar-width: thin;
   scrollbar-color: var(--border-color) transparent;
+  -webkit-overflow-scrolling: touch;
 }
 
 .gallery-thumbs::-webkit-scrollbar {
