@@ -45,8 +45,7 @@ function ProductDetails() {
 
   // Find related products (same category, excluding current product)
   const relatedProducts = products
-    .filter((p) => p.category === product.category && p.id !== product.id)
-    .slice(0, 4);
+    .filter((p) => p.category === product.category && p.id !== product.id);
 
   return (
     <div className="details-container">
