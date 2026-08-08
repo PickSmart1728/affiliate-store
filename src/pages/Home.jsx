@@ -35,14 +35,24 @@ function Home({ searchQuery, setSearchQuery, selectedCategory, setSelectedCatego
   };
 
   // Filter products by selected category and search query
-  const filteredProducts = products.filter((product) => {
-    const matchesCategory = selectedCategory === "All" || product.category === selectedCategory;
-    const matchesSearch = 
-      product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      product.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      product.description.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
+  const filteredProducts = products
+    .filter((product) => {
+      const matchesCategory = selectedCategory === "All" || product.category === selectedCategory;
+      const matchesSearch =
+        product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        product.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        product.description.toLowerCase().includes(searchQuery.toLowerCase());
+      return matchesCategory && matchesSearch;
+    })
+    .sort((a, b) => {
+      if (selectedCategory === "All") {
+        // Sort by category alphabetically first, then by name within the category
+        const catCompare = a.category.localeCompare(b.category);
+        if (catCompare !== 0) return catCompare;
+      }
+      // Within the same category (or when a specific category is selected), sort by name ascending
+      return a.name.localeCompare(b.name);
+    });
 
   // Section title depending on search query and category
   const getSectionTitle = () => {
