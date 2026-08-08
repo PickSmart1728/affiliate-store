@@ -696,6 +696,28 @@ const products = [
       { label: "Age Group", value: "Children 3–12 years" },
       { label: "Pack", value: "Set of multiple brushes" },
     ]
+  },
+  {
+    id: 34,
+    name: "2 in 1 Ice Cube Water Bottle",
+    category: "Kitchen Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61NQt2hza8L._SL1254_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61NQt2hza8L._SL1254_.jpg", alt: "2 in 1 Ice Cube Water Bottle — main view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61jbd8pMUmL._SL1254_.jpg", alt: "2 in 1 Ice Cube Water Bottle — ice tray view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61OqO19P0CL._SL1254_.jpg", alt: "2 in 1 Ice Cube Water Bottle — in use" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71LtvtQblbL._SL1254_.jpg", alt: "2 in 1 Ice Cube Water Bottle — detail" },
+    ],
+    description: "The ultimate 2-in-1 water bottle with a built-in ice cube tray — freeze water directly in the bottle lid and enjoy chilled drinks anytime, anywhere. No more hunting for ice trays or separate containers. Perfect for outdoor adventures, gym sessions, and everyday hydration.",
+    affiliate: "https://link.amazon/B0f5HtfQj",
+    specs: [
+      { label: "Design", value: "2-in-1 bottle + ice tray" },
+      { label: "Function", value: "Built-in ice cube maker" },
+      { label: "Ideal For", value: "Gym, outdoors & daily use" },
+      { label: "Material", value: "Food-safe BPA-free plastic" },
+      { label: "Convenience", value: "No separate ice tray needed" },
+    ]
   }
 ];
 
