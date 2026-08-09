@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 import products from "../data/products";
 
 function getFeaturedPerCategory() {
-  const map = new Map();
-  products.forEach((p) => {
-    if (!map.has(p.category)) map.set(p.category, p);
-    if (p.featured) map.set(p.category, p);
-  });
-  return Array.from(map.values()).sort((a, b) => a.category.localeCompare(b.category));
+  return products.filter((p) => p.heroSlide).sort((a, b) => a.category.localeCompare(b.category));
 }
 
 const ROTATE_MS = 4500;

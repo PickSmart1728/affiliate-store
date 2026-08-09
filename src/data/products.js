@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "Laptop Backpack",
     category: "Bags & Travel",
-    // Primary thumbnail fallback (used in search suggestions)
+    heroSlide: true,
     image: "https://m.media-amazon.com/images/I/51DVNSbWIRL._SX679_.jpg",
     gallery: [
       {
@@ -37,6 +37,7 @@ const products = [
     id: 2,
     name: "Clip-On Reading Light",
     category: "Books & Reading",
+    heroSlide: true,
     image: "https://m.media-amazon.com/images/I/61KDpa+vM6L._SL1500_.jpg",
     gallery: [
       { type: "image", src: "https://m.media-amazon.com/images/I/61KDpa+vM6L._SL1500_.jpg", alt: "Clip-On Reading Light — main view" },
@@ -57,9 +58,7 @@ const products = [
     id: 3,
     name: "Wireless Gaming Mouse",
     category: "Computer Accessories",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/51TlcbLtEwL._SL1024_.jpg",
     gallery: [
@@ -80,9 +79,7 @@ const products = [
     id: 4,
     name: "Panda Glow Lamp",
     category: "Decor & Shine",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/61lza9VEV9L._SL1254_.jpg",
     gallery: [
@@ -103,9 +100,6 @@ const products = [
     id: 5,
     name: "Kitchen Magnet Set",
     category: "Decor & Shine",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/71jcYuYYcRL._SL1500_.jpg",
     gallery: [
@@ -125,9 +119,7 @@ const products = [
     id: 6,
     name: "Eyewear Organizer Case",
     category: "Fashion Accessories",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/71u+teVfA-L._SX679_.jpg",
     gallery: [
@@ -147,9 +139,6 @@ const products = [
     id: 7,
     name: "Mini Storage Trolley",
     category: "Fashion Accessories",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/71jQer0Dc4L._SL1500_.jpg",
     gallery: [
@@ -168,9 +157,7 @@ const products = [
     id: 8,
     name: "Garment Steamer",
     category: "Home Essentials",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/51X1+BH-HyL._SL1024_.jpg",
     gallery: [
@@ -190,9 +177,6 @@ const products = [
     id: 9,
     name: "Appliance Roller Pads",
     category: "Home Essentials",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/71c2YlMZg6L._SL1500_.jpg",
     gallery: [
@@ -212,9 +196,7 @@ const products = [
     id: 10,
     name: "Astronaut Galaxy Projector",
     category: "Kids & Toys",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/71R2SxbDV5L._SL1254_.jpg",
     gallery: [
@@ -234,9 +216,6 @@ const products = [
     id: 11,
     name: "Kids Learning Phone",
     category: "Kids & Toys",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/61MenUa6psL._SL1024_.jpg",
     gallery: [
@@ -257,9 +236,7 @@ const products = [
     id: 12,
     name: "Cutlery Set",
     category: "Kitchen Essentials",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/61FTVXzjP6L._SL1098_.jpg",
     gallery: [
@@ -281,9 +258,6 @@ const products = [
     id: 13,
     name: "Snack Finger Tongs",
     category: "Kitchen Essentials",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/6145zhuly2L._SL1500_.jpg",
     gallery: [
@@ -304,9 +278,6 @@ const products = [
     id: 14,
     name: "Electric Lunch Box",
     category: "Kitchen Essentials",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/51ji4zqLlJL._SL1500_.jpg",
     gallery: [
@@ -327,9 +298,7 @@ const products = [
     id: 16,
     name: "Selfie Stick Phone Case",
     category: "Mobile Accessories",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/917YEWgTzDL._SL1500_.jpg",
     gallery: [
@@ -349,9 +318,7 @@ const products = [
     id: 17,
     name: "Desk Organizer",
     category: "Office & Stationery",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/71GlziE2jdL._SL1280_.jpg",
     gallery: [
@@ -371,9 +338,6 @@ const products = [
     id: 18,
     name: "Mini Pocket Printer",
     category: "Kids & Toys",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/61s951fyMTL._SL1024_.jpg",
     gallery: [
@@ -393,9 +357,7 @@ const products = [
     id: 19,
     name: "Tech Pouch Organizer",
     category: "Tech Accessories",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/814GTqb4fEL._SL1500_.jpg",
     gallery: [
@@ -641,6 +603,7 @@ const products = [
     id: 31,
     name: "Toilet Gel Stamp",
     category: "Health, Household & Personal Care",
+    heroSlide: true,
     featured: false,
     image: "https://m.media-amazon.com/images/I/51FvM-YlylL.jpg",
     gallery: [
