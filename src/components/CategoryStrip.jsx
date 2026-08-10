@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Grid, ShoppingBag, BookOpen, Laptop, Shirt, Home, Dumbbell, Headphones, Watch, Mouse, Sparkles, Tag, Glasses, Gamepad2, Utensils, Smartphone, Paperclip, Cpu } from "lucide-react";
+import { Grid, ShoppingBag, BookOpen, Laptop, Shirt, Home, Dumbbell, Headphones, Watch, Mouse, Sparkles, Tag, Glasses, Gamepad2, Utensils, Smartphone, Paperclip, Cpu, Wrench, Car, Heart } from "lucide-react";
 import products from "../data/products";
 
 // Pre-map known categories to their preferred icons
@@ -16,6 +16,9 @@ const iconMap = {
   "Mobile Accessories": Smartphone,
   "Office & Stationery": Paperclip,
   "Tech Accessories": Cpu,
+  "Home Improvement": Wrench,
+  "Automotive Essentials": Car,
+  "Personal Care Appliances": Heart,
 };
 
 function CategoryStrip({ selectedCategory, setSelectedCategory }) {
