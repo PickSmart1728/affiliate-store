@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "Laptop Backpack",
     category: "Bags & Travel",
-    // Primary thumbnail fallback (used in search suggestions)
+    heroSlide: true,
     image: "https://m.media-amazon.com/images/I/51DVNSbWIRL._SX679_.jpg",
     gallery: [
       {
@@ -37,6 +37,7 @@ const products = [
     id: 2,
     name: "Clip-On Reading Light",
     category: "Books & Reading",
+    heroSlide: true,
     image: "https://m.media-amazon.com/images/I/61KDpa+vM6L._SL1500_.jpg",
     gallery: [
       { type: "image", src: "https://m.media-amazon.com/images/I/61KDpa+vM6L._SL1500_.jpg", alt: "Clip-On Reading Light — main view" },
@@ -57,9 +58,7 @@ const products = [
     id: 3,
     name: "Wireless Gaming Mouse",
     category: "Computer Accessories",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/51TlcbLtEwL._SL1024_.jpg",
     gallery: [
@@ -80,9 +79,7 @@ const products = [
     id: 4,
     name: "Panda Glow Lamp",
     category: "Decor & Shine",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/61lza9VEV9L._SL1254_.jpg",
     gallery: [
@@ -103,9 +100,6 @@ const products = [
     id: 5,
     name: "Kitchen Magnet Set",
     category: "Decor & Shine",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/71jcYuYYcRL._SL1500_.jpg",
     gallery: [
@@ -125,9 +119,7 @@ const products = [
     id: 6,
     name: "Eyewear Organizer Case",
     category: "Fashion Accessories",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/71u+teVfA-L._SX679_.jpg",
     gallery: [
@@ -147,9 +139,6 @@ const products = [
     id: 7,
     name: "Mini Storage Trolley",
     category: "Fashion Accessories",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/71jQer0Dc4L._SL1500_.jpg",
     gallery: [
@@ -168,9 +157,7 @@ const products = [
     id: 8,
     name: "Garment Steamer",
     category: "Home Essentials",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/51X1+BH-HyL._SL1024_.jpg",
     gallery: [
@@ -190,9 +177,6 @@ const products = [
     id: 9,
     name: "Appliance Roller Pads",
     category: "Home Essentials",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/71c2YlMZg6L._SL1500_.jpg",
     gallery: [
@@ -212,9 +196,7 @@ const products = [
     id: 10,
     name: "Astronaut Galaxy Projector",
     category: "Kids & Toys",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/71R2SxbDV5L._SL1254_.jpg",
     gallery: [
@@ -234,9 +216,6 @@ const products = [
     id: 11,
     name: "Kids Learning Phone",
     category: "Kids & Toys",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/61MenUa6psL._SL1024_.jpg",
     gallery: [
@@ -257,9 +236,7 @@ const products = [
     id: 12,
     name: "Cutlery Set",
     category: "Kitchen Essentials",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/61FTVXzjP6L._SL1098_.jpg",
     gallery: [
@@ -281,9 +258,6 @@ const products = [
     id: 13,
     name: "Snack Finger Tongs",
     category: "Kitchen Essentials",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/6145zhuly2L._SL1500_.jpg",
     gallery: [
@@ -304,9 +278,6 @@ const products = [
     id: 14,
     name: "Electric Lunch Box",
     category: "Kitchen Essentials",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/51ji4zqLlJL._SL1500_.jpg",
     gallery: [
@@ -327,9 +298,7 @@ const products = [
     id: 16,
     name: "Selfie Stick Phone Case",
     category: "Mobile Accessories",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/917YEWgTzDL._SL1500_.jpg",
     gallery: [
@@ -349,9 +318,7 @@ const products = [
     id: 17,
     name: "Desk Organizer",
     category: "Office & Stationery",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/71GlziE2jdL._SL1280_.jpg",
     gallery: [
@@ -371,9 +338,6 @@ const products = [
     id: 18,
     name: "Mini Pocket Printer",
     category: "Kids & Toys",
-
-
-
     featured: false,
     image: "https://m.media-amazon.com/images/I/61s951fyMTL._SL1024_.jpg",
     gallery: [
@@ -393,9 +357,7 @@ const products = [
     id: 19,
     name: "Tech Pouch Organizer",
     category: "Tech Accessories",
-
-
-
+    heroSlide: true,
     featured: true,
     image: "https://m.media-amazon.com/images/I/814GTqb4fEL._SL1500_.jpg",
     gallery: [
@@ -475,23 +437,24 @@ const products = [
   },
   {
     id: 23,
-    name: "Masala Chai Maker",
+    name: "Multipurpose Electric Kettle",
     category: "Kitchen Essentials",
     featured: false,
-    image: "https://m.media-amazon.com/images/I/71Bck1aaujL._SL1500_.jpg",
+    image: "https://m.media-amazon.com/images/I/41JJWFk14hL._SL1300_.jpg",
     gallery: [
-      { type: "image", src: "https://m.media-amazon.com/images/I/71Bck1aaujL._SL1500_.jpg", alt: "Masala Chai Maker — main" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/712cXRPMouL._SL1500_.jpg", alt: "Masala Chai Maker — brewing" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/714jCfnVRRL._SL1500_.jpg", alt: "Masala Chai Maker — detail" },
-      { type: "image", src: "https://m.media-amazon.com/images/I/71OmUojwYuL._SL1500_.jpg", alt: "Masala Chai Maker — lifestyle" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/41JJWFk14hL._SL1300_.jpg", alt: "Multipurpose Electric Kettle — main view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81piaV9CV4L._SL1500_.jpg", alt: "Multipurpose Electric Kettle — front angle" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/817xTzYxDKL._SL1500_.jpg", alt: "Multipurpose Electric Kettle — safety features" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81hBkBG1+IL._SL1500_.jpg", alt: "Multipurpose Electric Kettle — in use" },
     ],
-    description: "Brew the perfect cup of masala chai at home with this dedicated electric chai maker. Boil, brew, and froth milk effortlessly for an authentic tea-stall experience in your own kitchen.",
-    affiliate: "https://link.amazon/B07rJlojn",
+    description: "A versatile multipurpose electric kettle designed for boiling water, brewing tea or coffee, and preparing instant meals like noodles or oatmeal. Features rapid boiling technology, auto shut-off, boil-dry protection, and an ergonomic heat-resistant handle for safe and convenient everyday use.",
+    affiliate: "https://link.amazon/B01BtcPIt",
     specs: [
-      { label: "Capacity", value: "Multiple cups per brew" },
-      { label: "Function", value: "Boil, brew & froth" },
-      { label: "Power", value: "Electric" },
-      { label: "Material", value: "Food-grade stainless steel" },
+      { label: "Capacity", value: "1.2 Liters" },
+      { label: "Power", value: "600W - Rapid heating" },
+      { label: "Safety", value: "Auto shut-off & boil-dry protection" },
+      { label: "Material", value: "Double-wall stainless steel interior & cool-touch exterior" },
+      { label: "Ideal For", value: "Boiling water, tea, coffee, noodles, oatmeal" },
     ]
   },
   {
@@ -641,6 +604,7 @@ const products = [
     id: 31,
     name: "Toilet Gel Stamp",
     category: "Health, Household & Personal Care",
+    heroSlide: true,
     featured: false,
     image: "https://m.media-amazon.com/images/I/51FvM-YlylL.jpg",
     gallery: [
@@ -717,6 +681,206 @@ const products = [
       { label: "Ideal For", value: "Gym, outdoors & daily use" },
       { label: "Material", value: "Food-safe BPA-free plastic" },
       { label: "Convenience", value: "No separate ice tray needed" },
+    ]
+  },
+  {
+    id: 35,
+    name: "Transparent Wireless Mouse",
+    category: "Tech Accessories",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61eiM4vykhL._SL1200_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61eiM4vykhL._SL1200_.jpg", alt: "Transparent Wireless Mouse — main view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61+WppxOpdL.jpg", alt: "Transparent Wireless Mouse — top view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71oUFlTW3UL._SL1200_.jpg", alt: "Transparent Wireless Mouse — side view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61jUzTfXiEL._SL1200_.jpg", alt: "Transparent Wireless Mouse — feature view" },
+    ],
+    description: "Sleek and modern transparent wireless mouse featuring quiet clicks, adjustable DPI settings, and dual-mode Bluetooth & 2.4GHz wireless connectivity. The unique clear shell showcases the internal components and dynamic RGB lighting, making it a stunning addition to any workspace or gaming setup.",
+    affiliate: "https://link.amazon/B02t4ud7K",
+    specs: [
+      { label: "Connectivity", value: "Bluetooth 5.0 / 2.4GHz Wireless" },
+      { label: "Charging", value: "Type-C Rechargeable" },
+      { label: "DPI", value: "800 - 1200 - 1600 - 2400 Adjustable" },
+      { label: "Features", value: "Dynamic RGB Backlight, Silent Clicks, Transparent Shell" },
+      { label: "Compatibility", value: "Windows, macOS, iPadOS, Android" },
+    ]
+  },
+  {
+    id: 36,
+    name: "8-in-1 Laptop Hub",
+    category: "Tech Accessories",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/71LWYz3q5PL._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/71LWYz3q5PL._SL1500_.jpg", alt: "8-in-1 Laptop Hub — ports" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71O4ut-u7DL._SL1500_.jpg", alt: "8-in-1 Laptop Hub — in use" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71bzJSI78OL._SL1500_.jpg", alt: "8-in-1 Laptop Hub — detail" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71+UIkyFgpL._SL1500_.jpg", alt: "8-in-1 Laptop Hub — packaging" },
+    ],
+    description: "Versatile 8-in-1 USB-C hub designed to expand your laptop's connectivity. Features multiple USB ports, an HDMI output supporting 4K resolution, SD/microSD card readers, and USB-C Power Delivery charging. Perfect for expanding your workstation at home, in the office, or on the go.",
+    affiliate: "https://link.amazon/B05gi3UID",
+    specs: [
+      { label: "Ports", value: "1x HDMI (4K @ 30Hz), 1x USB-C PD, 3x USB 3.0, 1x USB-C Data, 1x SD, 1x TF" },
+      { label: "Power Delivery", value: "Supports up to 100W PD pass-through" },
+      { label: "Material", value: "Premium Aluminum Alloy casing" },
+      { label: "Compatibility", value: "MacBook, iPad Pro, Chromebook, and other Type-C devices" },
+      { label: "Plug & Play", value: "No drivers required" },
+    ]
+  },
+  {
+    id: 37,
+    name: "Rotating Food Dispenser",
+    category: "Kitchen Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61WTWY1nrdL.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61WTWY1nrdL.jpg", alt: "Rotating Food Dispenser — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/612g89exTGL._SL1080_.jpg", alt: "Rotating Food Dispenser — details" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/712KhAVABvL._SL1413_.jpg", alt: "Rotating Food Dispenser — features" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61NxpT6QFNL.jpg", alt: "Rotating Food Dispenser — storage" },
+    ],
+    description: "A convenient 360-degree rotating dry food and cereal dispenser with multiple compartments. Designed to keep your grains, rice, beans, and cereal organized, fresh, and easy to dispense with a simple button press. Clear panels allow you to monitor food levels at a glance.",
+    affiliate: "https://link.amazon/B02lXxznz",
+    specs: [
+      { label: "Rotation", value: "360-degree rotating base" },
+      { label: "Compartments", value: "6 independent storage sections" },
+      { label: "Dispensing", value: "One-button press design" },
+      { label: "Material", value: "BPA-free food-grade PP plastic" },
+      { label: "Ideal For", value: "Rice, grains, beans, cereal, small nuts" },
+    ]
+  },
+  {
+    id: 38,
+    name: "Automatic Jar Opener",
+    category: "Kitchen Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/6186OG+Xc+L._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/6186OG+Xc+L._SL1500_.jpg", alt: "Automatic Jar Opener — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71yCj08MuiL._SL1500_.jpg", alt: "Automatic Jar Opener — in use" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/615HdCtotDL._SL1500_.jpg", alt: "Automatic Jar Opener — features" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61H8KSzOimL._SL1500_.jpg", alt: "Automatic Jar Opener — design" },
+    ],
+    description: "Hands-free automatic jar opener that opens stubborn jar lids with a single touch. Perfect for seniors, individuals with arthritis, or anyone looking for a convenient kitchen helper. Fits most standard jar sizes and grips tightly to twist open effortlessly.",
+    affiliate: "https://link.amazon/B0gOFZrZ3",
+    specs: [
+      { label: "Operation", value: "One-touch automatic hands-free" },
+      { label: "Power", value: "2x AA Batteries (not included)" },
+      { label: "Size Compatibility", value: "Fits jars of various shapes and sizes" },
+      { label: "Ideal For", value: "Seniors, arthritis patients, home chefs" },
+      { label: "Grip Material", value: "Slip-resistant durable grip" },
+    ]
+  },
+  {
+    id: 39,
+    name: "6-in-1 Salad Spinner",
+    category: "Kitchen Essentials",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/613u7E68+eL._SL1024_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/613u7E68+eL._SL1024_.jpg", alt: "6-in-1 Salad Spinner — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61-YeaosWoL._SL1122_.jpg", alt: "6-in-1 Salad Spinner — components" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61SE5TZA-uL._SL1021_.jpg", alt: "6-in-1 Salad Spinner — in use" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71Z4q28cZvL._SL1500_.jpg", alt: "6-in-1 Salad Spinner — detail" },
+    ],
+    description: "Multifunctional 6-in-1 salad spinner, chopper, slicer, and grater. Wash, spin-dry, and prep your greens and vegetables using a single compact bowl. Interchangeable blades allow you to grate, slice, and julienne straight into the bowl, saving time and clean-up.",
+    affiliate: "https://link.amazon/B05ZRKEP7",
+    specs: [
+      { label: "Functions", value: "Spin dry, chop, slice, grate, julienne, serve" },
+      { label: "Attachments", value: "5 interchangeable stainless steel blades + grater plate" },
+      { label: "Capacity", value: "Large capacity washing & drying bowl" },
+      { label: "Safety", value: "Finger guard protector included" },
+      { label: "Material", value: "BPA-free durable ABS/PP plastic" },
+    ]
+  },
+  {
+    id: 40,
+    name: "Mini Packet Sealer",
+    category: "Home Improvement",
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61GbSnGn5BL._SL1280_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61GbSnGn5BL._SL1280_.jpg", alt: "Mini Packet Sealer — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61tus7u0W+L._SL1500_.jpg", alt: "Mini Packet Sealer — features" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61sQkyvDraL._SL1280_.jpg", alt: "Mini Packet Sealer — details" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71byE1gHw0L._SL1500_.jpg", alt: "Mini Packet Sealer — packaging" },
+    ],
+    description: "Handheld mini heat bag sealer and cutter. Quickly seal snack bags, chips, and left-over foods to keep them fresh and crispy. Features a built-in sharp cutter to easily reopen sealed bags. Compact, rechargeable, and magnetic for easy storage on your fridge.",
+    affiliate: "https://link.amazon/B0gQdQm5M",
+    specs: [
+      { label: "Functions", value: "2-in-1 Sealer & Cutter" },
+      { label: "Power", value: "USB Rechargeable" },
+      { label: "Storage", value: "Magnetic back for fridge mounting" },
+      { label: "Suitable For", value: "Plastic bags, foil bags, snack bags" },
+      { label: "Heating Time", value: "Instant pre-heat" },
+    ]
+  },
+  {
+    id: 41,
+    name: "Laser Guided Scissors",
+    category: "Home Improvement",
+    heroSlide: true,
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/41kycyg8kfL.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/41kycyg8kfL.jpg", alt: "Laser Guided Scissors — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/41VF7Tq2DjL.jpg", alt: "Laser Guided Scissors — details" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/51zeWjoELeL.jpg", alt: "Laser Guided Scissors — side profile" },
+    ],
+    description: "Innovative laser-guided scissors designed for perfectly straight cuts every time. Ideal for cutting wrapping paper, fabrics, crafts, and scrapbooking. Easy-to-adjust laser beam ensures precise alignment and clean edges.",
+    affiliate: "https://link.amazon/B0ahVDPVJ",
+    specs: [
+      { label: "Guide", value: "Integrated red laser line" },
+      { label: "Blade", value: "Stainless steel blades" },
+      { label: "Power", value: "2x LR44 button cell batteries (included)" },
+      { label: "Ideal For", value: "Wrapping paper, fabric, crafts, and DIY projects" },
+      { label: "Handle", value: "Ergonomic comfort-grip handle" },
+    ]
+  },
+  {
+    id: 42,
+    name: "HD Car Sun Visor",
+    category: "Automotive Essentials",
+    heroSlide: true,
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/51sqrjJ4gPL._SL1000_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/51sqrjJ4gPL._SL1000_.jpg", alt: "HD Car Sun Visor — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61bl6Q9o2XL.jpg", alt: "HD Car Sun Visor — installation" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/51aqsZKSvnL.jpg", alt: "HD Car Sun Visor — close-up" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/6195DOuDoVL._SL1000_.jpg", alt: "HD Car Sun Visor — night mode" },
+    ],
+    description: "2-in-1 HD car anti-glare sun visor extension. Reduces blinding glare from the sun during the day and filters out harsh headlight glare at night. Simple clip-on design attaches securely to your car's existing sun visor without tools.",
+    affiliate: "https://link.amazon/B0gTfdxdB",
+    specs: [
+      { label: "Panels", value: "Dual panels (Daytime yellow-tinted, Nighttime grey-tinted)" },
+      { label: "Material", value: "High-definition shatterproof PMMA acrylic" },
+      { label: "Adjustment", value: "360-degree rotation & height adjustable" },
+      { label: "Installation", value: "Clip-on, fits most cars & SUVs" },
+      { label: "Protection", value: "Filters UV rays and glare" },
+    ]
+  },
+  {
+    id: 43,
+    name: "Period Cramp Massager",
+    category: "Personal Care Appliances",
+    heroSlide: true,
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61gIW4Izb4L._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61gIW4Izb4L._SL1500_.jpg", alt: "Period Cramp Massager — main" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71YgMReQNFL._SL1500_.jpg", alt: "Period Cramp Massager — lifestyle" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/61Wr4NXvQmL._SL1500_.jpg", alt: "Period Cramp Massager — features" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71aLf9JQPCL._SL1500_.jpg", alt: "Period Cramp Massager — package" },
+    ],
+    description: "Wearable wireless heating pad and vibration massager designed to relieve menstrual cramps and back pain. Features rapid heating technology and multiple massage modes. Lightweight, ultra-thin, and adjustable to wear discreetly under clothing.",
+    affiliate: "https://link.amazon/B07fXh8Qb",
+    specs: [
+      { label: "Heating", value: "3 Temperature levels (e.g. 50°C, 55°C, 60°C)" },
+      { label: "Vibration", value: "Multiple speed vibration modes" },
+      { label: "Power", value: "USB rechargeable long-lasting battery" },
+      { label: "Strap", value: "Adjustable elastic waist strap" },
+      { label: "Comfort", value: "Soft velvet/breathable inner lining" },
     ]
   }
 ];
