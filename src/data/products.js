@@ -819,6 +819,7 @@ const products = [
     id: 41,
     name: "Laser Guided Scissors",
     category: "Home Improvement",
+    heroSlide: true,
     featured: false,
     image: "https://m.media-amazon.com/images/I/41kycyg8kfL.jpg",
     gallery: [
@@ -840,6 +841,7 @@ const products = [
     id: 42,
     name: "HD Car Sun Visor",
     category: "Automotive Essentials",
+    heroSlide: true,
     featured: false,
     image: "https://m.media-amazon.com/images/I/51sqrjJ4gPL._SL1000_.jpg",
     gallery: [
@@ -862,6 +864,7 @@ const products = [
     id: 43,
     name: "Period Cramp Massager",
     category: "Personal Care Appliances",
+    heroSlide: true,
     featured: false,
     image: "https://m.media-amazon.com/images/I/61gIW4Izb4L._SL1500_.jpg",
     gallery: [
