@@ -882,6 +882,98 @@ const products = [
       { label: "Strap", value: "Adjustable elastic waist strap" },
       { label: "Comfort", value: "Soft velvet/breathable inner lining" },
     ]
+  },
+  {
+    id: 44,
+    name: "Electric Shoe Dryer",
+    category: "Sports & Fitness",
+    heroSlide: true,
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/61uJkZvxaFL._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/61uJkZvxaFL._SL1500_.jpg", alt: "Electric Shoe Dryer — main view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/71Flt4DusLL._SL1500_.jpg", alt: "Electric Shoe Dryer — usage" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81Ddb-MsZCL._SL1500_.jpg", alt: "Electric Shoe Dryer — details" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81cCL0C2sGL._SL1500_.jpg", alt: "Electric Shoe Dryer — package" },
+    ],
+    description: "An efficient electric shoe dryer designed to quickly dry, deodorize, and sanitize your shoes, boots, and athletic gear. Features heat circulation, timing controls, and a folding design for easy storage. Perfect for sports enthusiasts, rainy days, and winter weather.",
+    affiliate: "https://link.amazon/B0i8fgCJM",
+    specs: [
+      { label: "Timer", value: "Auto shut-off timer (e.g. 1h, 2h, 3h)" },
+      { label: "Features", value: "Heat circulation & deodorizer" },
+      { label: "Design", value: "Foldable & portable" },
+      { label: "Suitable For", value: "Shoes, boots, gloves, hats, socks" },
+      { label: "Power", value: "Standard wall plug" },
+    ]
+  },
+  {
+    id: 45,
+    name: "Nano Mist Sprayer",
+    category: "Kitchen Essentials",
+    heroSlide: false,
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/51EjOiOtoAL.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/51EjOiOtoAL.jpg", alt: "Nano Mist Sprayer — main view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/51MHZyOGmtL.jpg", alt: "Nano Mist Sprayer — side view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/613M3qjqmNL.jpg", alt: "Nano Mist Sprayer — lifestyle" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/510sVfSCecL.jpg", alt: "Nano Mist Sprayer — details" },
+    ],
+    description: "A portable, rechargeable nano mist sprayer. Delivers a fine, cool mist instantly. Ideal for facial hydration, setting makeup, or even sanitizing small surfaces. Compact enough to fit in any bag or pocket for hydration on the go.",
+    affiliate: "https://link.amazon/B00gqRFxH",
+    specs: [
+      { label: "Technology", value: "Nano atomization" },
+      { label: "Capacity", value: "30ml water tank" },
+      { label: "Power", value: "USB Rechargeable" },
+      { label: "Mist Output", value: "Cool, ultra-fine mist" },
+      { label: "Charging Time", value: "approx. 1-2 hours" },
+    ]
+  },
+  {
+    id: 46,
+    name: "Fresh Herb Keeper",
+    category: "Kitchen Essentials",
+    heroSlide: false,
+    featured: true,
+    image: "https://m.media-amazon.com/images/I/91galChlDKL._SL1500_.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/91galChlDKL._SL1500_.jpg", alt: "Fresh Herb Keeper — main view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81D9SXoFHiL._SL1500_.jpg", alt: "Fresh Herb Keeper — interior details" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81In+JVRGcL._SL1500_.jpg", alt: "Fresh Herb Keeper — side view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/81sZUVlbgiL._SL1500_.jpg", alt: "Fresh Herb Keeper — dimensions" },
+    ],
+    description: "Keep your fresh herbs fresh and crisp for up to 3 times longer with this premium glass herb keeper. Features a water reservoir base and a breathable glass container that fits perfectly in most refrigerator doors. Perfect for cilantro, parsley, asparagus, rosemary, and more.",
+    affiliate: "https://link.amazon/B0f5zhr8V",
+    specs: [
+      { label: "Material", value: "BPA-free plastic & glass container" },
+      { label: "Lifespan", value: "Prolongs fresh herbs up to 3x longer" },
+      { label: "Design", value: "Fits in refrigerator door" },
+      { label: "Suitable For", value: "Parsley, cilantro, asparagus, rosemary, mint" },
+      { label: "Base", value: "Integrated water reservoir" },
+    ]
+  },
+  {
+    id: 47,
+    name: "Soap Dispensing Scrub Brush",
+    category: "Home Essentials",
+    heroSlide: false,
+    featured: false,
+    image: "https://m.media-amazon.com/images/I/41vF8A3R+nL.jpg",
+    gallery: [
+      { type: "image", src: "https://m.media-amazon.com/images/I/41vF8A3R+nL.jpg", alt: "Soap Dispensing Scrub Brush — main view" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/41hjoFMT7BL.jpg", alt: "Soap Dispensing Scrub Brush — in use" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/41tajEChwiL.jpg", alt: "Soap Dispensing Scrub Brush — details" },
+      { type: "image", src: "https://m.media-amazon.com/images/I/41FMVd5r9fL.jpg", alt: "Soap Dispensing Scrub Brush — storage stand" },
+    ],
+    description: "An ergonomic soap dispensing palm scrub brush. Dispenses liquid soap with the light push of a button. Durable nylon bristles easily scrub away baked-on food, and the non-slip grip provides comfort and control even when wet. Comes with a convenient storage stand.",
+    affiliate: "https://link.amazon/B0iEaq52a",
+    specs: [
+      { label: "Dispenser", value: "Push-button soap dispensing" },
+      { label: "Bristles", value: "Durable nylon bristles" },
+      { label: "Grip", value: "Non-slip ergonomic palm grip" },
+      { label: "Storage", value: "Includes drip tray / storage stand" },
+      { label: "Refillable", value: "Easy unscrew top cap" },
+    ]
   }
 ];
 

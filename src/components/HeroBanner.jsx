@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { ArrowRight, Star, ShoppingBag } from "lucide-react";
+import { ArrowRight, Star } from "lucide-react";
 import { Link } from "react-router-dom";
 import products from "../data/products";
 
