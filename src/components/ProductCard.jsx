@@ -29,7 +29,6 @@ function ProductCard({ product }) {
       }, 2000);
     } else {
       clearInterval(intervalRef.current);
-      setCurrentImg(0); // Reset to primary image when not hovering
     }
     return () => clearInterval(intervalRef.current);
   }, [isHovered, imageSrcs.length]);
@@ -41,7 +40,10 @@ function ProductCard({ product }) {
     <div
       className="card"
       onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      onMouseLeave={() => {
+        setIsHovered(false);
+        setCurrentImg(0);
+      }}
     >
       <div className="card-image-wrapper">
         <span className="card-category">{product.category}</span>
