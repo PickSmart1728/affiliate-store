@@ -4,6 +4,7 @@ import products from "../data/products";
 import ProductCard from "../components/ProductCard";
 import ProductGallery from "../components/ProductGallery";
 import ProductSpecs from "../components/ProductSpecs";
+import SEOHead from "../components/SEOHead";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 
 function ProductDetails() {
@@ -47,8 +48,37 @@ function ProductDetails() {
   const relatedProducts = products
     .filter((p) => p.category === product.category && p.id !== product.id);
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": product.name,
+    "image": product.image,
+    "description": product.description,
+    "category": product.category,
+    "offers": {
+      "@type": "Offer",
+      "url": product.affiliate,
+      "priceCurrency": "INR",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Amazon India"
+      }
+    }
+  };
+
   return (
-    <div className="details-container">
+    <>
+      <SEOHead
+        title={`${product.name} - Reviews & Buy on Amazon`}
+        description={product.description}
+        canonicalUrl={`https://picksmart.store/product/${product.id}`}
+        ogImage={product.image}
+        ogType="product"
+        keywords={[product.name, product.category, "buy online amazon", "picksmart recommendation"]}
+        schemaData={productSchema}
+      />
+      <div className="details-container">
       <Link to="/" className="back-link">
         <ArrowLeft size={16} /> Back to Products
       </Link>
@@ -95,7 +125,8 @@ function ProductDetails() {
         </div>
       )}
     </div>
-  );
+  </>
+);
 }
 
 export default ProductDetails;
