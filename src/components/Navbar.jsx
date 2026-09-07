@@ -47,6 +47,9 @@ function Navbar({ searchQuery, setSearchQuery, setSelectedCategory }) {
       ).slice(0, 5)
     : [];
 
+  const isBlogActive = location.pathname.startsWith("/blog");
+  const isStoreActive = location.pathname === "/" || location.pathname.startsWith("/product");
+
   return (
     <header className="header-wrapper">
       <nav className="navbar">
@@ -103,7 +106,21 @@ function Navbar({ searchQuery, setSearchQuery, setSelectedCategory }) {
           )}
         </div>
 
-
+        <div className="navbar-nav-links">
+          <Link
+            to="/"
+            onClick={handleLogoClick}
+            className={`nav-link-btn ${isStoreActive ? "active" : ""}`}
+          >
+            Store
+          </Link>
+          <Link
+            to="/blog"
+            className={`nav-link-btn ${isBlogActive ? "active" : ""}`}
+          >
+            Guides & Blog
+          </Link>
+        </div>
       </nav>
     </header>
   );

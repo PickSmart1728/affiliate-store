@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /blog
+Allow: /blog/*
+Allow: /product/*
+
+Sitemap: https://picksmart.store/sitemap.xml

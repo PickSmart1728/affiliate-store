@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ProductDetails from "./pages/ProductDetails";
+import BlogList from "./pages/BlogList";
+import BlogPost from "./pages/BlogPost";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -31,6 +33,8 @@ function App() {
             } 
           />
           <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="/blog" element={<BlogList />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
         </Routes>
       </main>
 

@@ -3,6 +3,8 @@ import products from "../data/products";
 import ProductCard from "../components/ProductCard";
 import CategoryStrip from "../components/CategoryStrip";
 import HeroBanner from "../components/HeroBanner";
+import HomeBlogSection from "../components/HomeBlogSection";
+import SEOHead from "../components/SEOHead";
 import { AlertCircle } from "lucide-react";
 
 function Home({ searchQuery, setSearchQuery, selectedCategory, setSelectedCategory }) {
@@ -65,8 +67,30 @@ function Home({ searchQuery, setSearchQuery, selectedCategory, setSelectedCatego
     return "Featured Products";
   };
 
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "PickSmart",
+    "url": "https://picksmart.store",
+    "description": "Curated Amazon India tech gadgets, smart home problem solvers, and buying guides under ₹500 and ₹999.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://picksmart.store/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <div>
+      <SEOHead
+        title="PickSmart | Curated Lifestyle Finds & Tech Buying Guides (2026)"
+        description="Discover handpicked Amazon gadgets under ₹500, smart workspace upgrades, travel essentials, and honest buying guides on PickSmart."
+        canonicalUrl="https://picksmart.store/"
+        ogType="website"
+        keywords={["amazon finds india", "gadgets under 500", "smart kitchen tools", "workspace accessories", "picksmart store"]}
+        schemaData={homeSchema}
+      />
+
       {/* Hide the promo hero slider if user is searching for something specific */}
       {!searchQuery && (
         <HeroBanner setSelectedCategory={setSelectedCategory} />
@@ -106,6 +130,9 @@ function Home({ searchQuery, setSearchQuery, selectedCategory, setSelectedCatego
           </div>
         )}
       </div>
+
+      {/* Buying Guides & Blog Section on Homepage (when not searching) */}
+      {!searchQuery && <HomeBlogSection />}
     </div>
   );
 }

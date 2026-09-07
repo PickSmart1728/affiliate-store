@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { X, ChevronDown } from "lucide-react";
+import { Link } from "react-router-dom";
+import { X, ChevronDown, BookOpen } from "lucide-react";
 
 /* ── Modal content data ──────────────────────────────────────────────── */
 const MODAL_CONTENT = {
@@ -246,6 +247,17 @@ function Footer() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
               </a>
             </div>
+          </div>
+
+          {/* ── Guides & Blog Column ─────────────────── */}
+          <div>
+            <h4 className="footer-column-title">Buying Guides</h4>
+            <ul className="footer-links">
+              <li><Link to="/blog">All Buying Guides</Link></li>
+              <li><Link to="/blog/7-essential-desk-accessories-productivity-2026">Desk Setup Guide (2026)</Link></li>
+              <li><Link to="/blog/ultimate-travel-backpack-guide-features-that-matter">Travel Backpack Guide</Link></li>
+              <li><Link to="/blog/how-to-build-a-cozy-late-night-reading-nook">Reading Nook Essentials</Link></li>
+            </ul>
           </div>
 
           {/* ── Customer Care Column ─────────────────── */}
