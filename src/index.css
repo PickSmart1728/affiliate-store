@@ -3287,15 +3287,50 @@ button {
   .blog-newsletter-banner {
     flex-direction: column;
     text-align: center;
-    padding: 32px 20px;
+    padding: 28px 18px;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   .newsletter-content {
     flex-direction: column;
+    text-align: center;
+    gap: 14px;
+    width: 100%;
+  }
+
+  .newsletter-text p {
+    margin: 0 auto;
+    font-size: 13.5px;
   }
 
   .newsletter-form {
+    flex-direction: column;
+    width: 100%;
     max-width: 100%;
+    gap: 12px;
+    box-sizing: border-box;
+  }
+
+  .newsletter-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
   }
 
   .blog-product-grid {
