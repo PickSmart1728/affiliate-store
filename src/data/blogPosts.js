@@ -22,7 +22,7 @@ export const blogPosts = [
     },
     tags: ["Budget Gadgets", "Under ₹500", "Tech", "Amazon Finds", "Student Friendly"],
     quickVerdict: "For under ₹500, the 7-in-1 Tech Cleaner and Mini Packet Heat Sealer deliver unmatched daily utility and solve real everyday problems at unbeatable value.",
-    relatedProductIds: [20, 40, 14, 2],
+    relatedProductIds: [20, 40, 13, 2],
     sections: [
       {
         heading: "1. Why Budget Gadgets Under ₹500 Are Dominating in 2026",
@@ -45,7 +45,7 @@ Whether you are a student setting up a study desk, a remote worker on a budget, 
       {
         heading: "4. Clean Hands While Gaming & Typing: Snack Finger Tongs",
         content: `Tired of greasy Cheetos or potato chip oils smearing all over your laptop trackpad, mouse, or phone screen? These ergonomic finger chopsticks slide comfortably over your index and middle fingers, letting you snack freely while working or gaming with clean fingers.`,
-        productId: 14,
+        productId: 13,
         productNote: "Life Saver for Gamers & Coders: BPA-free ergonomic finger tongs that keep grease completely off keyboards."
       },
       {
@@ -92,7 +92,7 @@ Whether you are a student setting up a study desk, a remote worker on a budget, 
     },
     tags: ["Kitchen", "Under ₹999", "Meal Prep", "Cooking Hacks", "Smart Home"],
     quickVerdict: "Save 30 minutes of daily meal prep with a high-speed manual vegetable chopper and keep expensive herbs fresh for weeks with a dedicated hydration keeper.",
-    relatedProductIds: [45, 37, 22, 46],
+    relatedProductIds: [46, 38, 22, 47],
     sections: [
       {
         heading: "1. Solving Daily Kitchen Pain Points on a Budget",
@@ -101,13 +101,13 @@ Whether you are a student setting up a study desk, a remote worker on a budget, 
       {
         heading: "2. Keep Herbs Crisp for 3x Longer: Fresh Herb Keeper",
         content: `Coriander, mint, and parsley usually turn black within 3 days in plastic bags. The Fresh Herb Keeper features a ventilated water reservoir base that keeps stems hydrated and leaves crisp in the fridge for up to 3 weeks.`,
-        productId: 45,
+        productId: 46,
         productNote: "Zero Food Waste: Slim fridge-door fit with refillable hydration chamber."
       },
       {
         heading: "3. Effortless Opening: One-Touch Automatic Jar Opener",
         content: `Tired of struggling with vacuum-sealed pickle jars or jam lids? This electric jar opener grips the jar and lid with one button press, twisting off tough caps smoothly with zero wrist strain.`,
-        productId: 37,
+        productId: 38,
         productNote: "Senior & Weak Grip Friendly: Hands-free automatic jar opener for all lid diameters."
       },
       {
@@ -119,7 +119,7 @@ Whether you are a student setting up a study desk, a remote worker on a budget, 
       {
         heading: "5. Clean Pots Without Messy Sponges: Soap Dispensing Scrub Brush",
         content: `Dispense dishwashing liquid directly onto greasy pans with a gentle press of the top button, protecting your skin and clearing stubborn burnt spots effortlessly.`,
-        productId: 46,
+        productId: 47,
         productNote: "Mess-Free Washing: Built-in soap reservoir with durable nylon bristles."
       }
     ],
